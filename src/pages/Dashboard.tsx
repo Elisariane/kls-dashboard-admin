@@ -7,7 +7,7 @@ const Dashboard: React.FC = () => {
         <div>
  
         <Sidebar>
-            
+
         </Sidebar>
             {/* Main Content */}
             <Container fluid>
@@ -22,9 +22,9 @@ const Dashboard: React.FC = () => {
 
                     {/* Main Content Area */}
                     <Col md={10} className="p-4">
-                        <h1 className="mb-4">Welcome to Your Dashboard</h1>
+                        <h1 className="mb-4">Página Inicial - KLS Games </h1>
 
-                        <Row>
+                        {/* <Row>
                             <Col md={4}>
                                 <Card className="mb-3">
                                     <Card.Body>
@@ -58,7 +58,7 @@ const Dashboard: React.FC = () => {
                                     </Card.Body>
                                 </Card>
                             </Col>
-                        </Row>
+                        </Row> */}
                     </Col>
                 </Row>
             </Container>

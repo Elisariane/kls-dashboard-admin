@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { Offcanvas, Nav, Button } from 'react-bootstrap';
 import { FaHome, FaBars, FaBoxes } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
+
 
 const Sidebar = () => {
   const [show, setShow] = useState(true);
@@ -24,7 +26,10 @@ const Sidebar = () => {
               <FaHome className="me-2" /> Dashboard
             </Nav.Link>
             <Nav.Link href="#about" className="d-flex align-items-center text-light custom-navlink">
-              <FaBoxes className="me-2" /> Produtos
+             
+              <Link to="/product"> 
+            <FaBoxes className="me-2" /> Produtos
+            </Link>
             </Nav.Link>
           </Nav>
         </Offcanvas.Body>
