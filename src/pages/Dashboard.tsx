@@ -1,16 +1,22 @@
 import React from 'react';
 import { Container, Row, Col, Card, Nav, Navbar, Button } from 'react-bootstrap';
+import Sidebar from '../components/Sidebar';
 
 const Dashboard: React.FC = () => {
     return (
         <div>
-            {/* Navbar */}
-            <Navbar bg="dark" variant="dark" expand="lg">
-                <Navbar.Brand href="#home">Dashboard</Navbar.Brand>
-            </Navbar>
-
+ 
+        <Sidebar>
+            
+        </Sidebar>
             {/* Main Content */}
             <Container fluid>
+            
+                {/* Navbar */}
+                <Navbar bg="dark" variant="dark" expand="lg">
+                    <Navbar.Brand href="#home">Dashboard</Navbar.Brand>
+                </Navbar>
+            
                 <Row>
                     {/* Sidebar */}
 
